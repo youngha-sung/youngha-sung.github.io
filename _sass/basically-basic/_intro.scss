@@ -28,6 +28,21 @@
   img {
     width: 100%;
   }
+
+  .intro-image-credit {
+    font-size: 0.75em;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    --tw-text-opacity: 1;
+    color: rgba(0, 0, 0, 0.5);
+    --tw-bg-opacity: 1;
+    background-color: rgba(229, 231, 235, 0.5);
+    border-radius: 0.5rem;
+  }
 }
 
 .intro-text {

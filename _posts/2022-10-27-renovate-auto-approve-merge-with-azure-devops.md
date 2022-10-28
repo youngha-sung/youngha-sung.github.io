@@ -5,9 +5,12 @@ sub_title: "\"Automerge renovate PRs automatically, without human intervention.\
 date: "2022-10-27 17:02:53 -0500"
 # categories: jekyll update
 read_time: true
-image: "/assets/images/posts/2022-10-27-hero.jpg"
+image:
+  path: "/assets/images/posts/2022-10-27-hero.jpg"
+  credit: Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/s/photos/computer-office-headset?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 # introduction: |
 #     \"Automerge renovate PRs automatically, without human intervention.\"
+excerpt: 'Automerge renovate PRs automatically, without human intervention.' 
 ---
 
 ## What is Renovate and how to setup with Azure DevOps

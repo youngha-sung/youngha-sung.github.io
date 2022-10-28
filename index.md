@@ -5,6 +5,7 @@
 layout: home
 # paginate: true
 # entries_layout: grid
-image: "/assets/images/index-hero.jpg"
+image:
+  path: "/assets/images/index-hero.jpg"
 sub_title: See what I'm up to as I share my thoughts, concepts, ideas, and news.
 ---

@@ -97,6 +97,10 @@
     > *:last-child {
       margin-bottom: 0;
     }
+
+    a {
+      text-decoration: none;
+    }
   }
 
   .entry-content {
@@ -165,6 +169,10 @@
       > *:last-child {
         margin-bottom: 0;
       }
+
+      a {
+        text-decoration: none;
+      }
     }
 
     .entry-excerpt {
@@ -172,6 +180,10 @@
       > * {
         font-size: 1em;
         color: $base03;
+      }
+
+      a {
+        text-decoration: none;
       }
     }
 
