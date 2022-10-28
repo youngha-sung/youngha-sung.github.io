@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// Theme skin
+@import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
+
+@import "basically-basic";
+
+
+.intro-title {
+  @include fluid-type($min-vw, $max-vw, 26px, 45px);
+  margin-bottom: 1rem;
+  color: tint($text-color, 25%);
+  line-height: 1;
+}
