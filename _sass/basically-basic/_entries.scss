@@ -90,6 +90,7 @@
     /* normalize font sizes */
     > * {
       font-size: 1em;
+      color: $base03;
     }
 
     /* remove space after last child element */
@@ -170,6 +171,7 @@
       /* normalize font sizes */
       > * {
         font-size: 1em;
+        color: $base03;
       }
     }
 
@@ -211,6 +213,7 @@
   h5,
   h6 {
     color: tint($text-color, 25%);
+    margin-top: 3.5rem;
   }
 }
 
