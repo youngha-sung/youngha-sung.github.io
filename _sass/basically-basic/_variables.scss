@@ -117,5 +117,8 @@ $navicon-nav-bg-open: transparent !default;
 $navicon-content-bg: $text-color !default;
 
 /* Site image */
-$site-image-width: 50px !default;
-$site-image-height: 50px !default;
+$site-image-width: 30px !default;
+$site-image-height: 30px !default;
+
+$site-logo-min: $modular-scale-1 * $site-image-width !default;
+$site-logo-max: $modular-scale-2 * $site-image-width !default;

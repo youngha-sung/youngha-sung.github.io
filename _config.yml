@@ -42,6 +42,8 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 # search: true
 # search_provider: algolia
 
+author: younghasung
+
 plugins:
   - jekyll-feed
   - jekyll-paginate

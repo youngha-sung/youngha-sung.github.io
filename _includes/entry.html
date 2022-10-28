@@ -16,6 +16,8 @@
   </header>
   <footer class="entry-meta">
     <ul>
+    {% include author %}
+      <li>{% if author_name %}{{ author_name | prepend: 'by ' }}{% endif %}</li>
     {% if post.date %}
       <li><span class="icon">{% include icon-calendar.svg %}</span><time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></li>
     {% endif %}

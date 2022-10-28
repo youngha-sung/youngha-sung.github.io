@@ -1,16 +1,13 @@
 ---
 layout: post
-title:  "Renovate auto approve/merge with Azure DevOps"
-# sub_title: "The name says it all"
-date:   2022-10-27 17:02:53 -0500
+title: "Renovate auto approve/merge with Azure DevOps"
+sub_title: "\"Automerge renovate PRs automatically, without human intervention.\""
+date: "2022-10-27 17:02:53 -0500"
 # categories: jekyll update
 read_time: true
-author: younghasung
 image: "/assets/images/posts/2022-10-27-hero.jpg"
-  # - thumbnail: "/assets/images/posts/2022-10-27-hero.jpg"
-image.thumbnail: "/assets/images/posts/2022-10-27-hero.jpg"
-introduction: |
-    \"Automerge renovate PRs automatically, without human intervention.\"
+# introduction: |
+#     \"Automerge renovate PRs automatically, without human intervention.\"
 ---
 
 ## What is Renovate and how to setup with Azure DevOps

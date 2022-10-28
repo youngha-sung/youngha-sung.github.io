@@ -35,8 +35,10 @@
 }
 
 .site-logo {
-  width: $site-image-width;
-  height: $site-image-height;
+  // width: $site-image-width;
+  // height: $site-image-height;
+  @include fluid-image($min-vw, $max-vw, $site-logo-min, $site-logo-max);
+
   margin-right: 0.5rem;
   border-radius: 50%;
 }
